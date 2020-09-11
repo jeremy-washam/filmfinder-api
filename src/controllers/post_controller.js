@@ -7,6 +7,8 @@ export const createPost = (req, res) => {
   post.content = req.body.content;
   post.coverUrl = req.body.coverUrl;
   post.rating = req.body.rating;
+  post.username = req.user.username;
+  post.author = req.user._id;
   post.save()
     .then((result) => {
       res.json({ message: 'Post created!' });
@@ -41,7 +43,7 @@ export const getPostsByRating = (req, res) => {
 };
 
 export const getPost = (req, res) => {
-  Post.findById(req.params.id)
+  Post.findById(req.params.id).populate('author')
     .then((result) => {
       res.json(result);
     }).catch((error) => {
