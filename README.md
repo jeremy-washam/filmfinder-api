@@ -22,7 +22,7 @@ This part didn't take as long as the frontend, but it was a lot more tedious - I
 * As mentioned in the README for my platform client, I added a field for movie ratings (from 0 to 5)
 * I also added a way to sort by rating (highest rated first) or by date added (most recent first)
 
-## SA 8
+## SA 8 Overview
 
 For part 2 of the backend / SA8, I added authentication to the frontend and backend of my project. My app now lets you signup, signin, and sign out, adds the username to each new post on the frontend, and only lets signed in users create or edit posts. This was pretty time consuming and difficult but the final product works well and it felt amazing once I got everything connected and working properly.
 
