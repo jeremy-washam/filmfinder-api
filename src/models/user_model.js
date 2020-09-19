@@ -10,7 +10,7 @@ const UserSchema = new Schema({
   toObject: { virtuals: true },
   toJSON: {
     virtuals: true,
-    transform(doc, ret, options) {
+    transform(ret) {
       ret.id = ret._id;
       delete ret._id;
       delete ret.password;
