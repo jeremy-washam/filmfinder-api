@@ -8,6 +8,8 @@ Below you can find my original description for lab 5 from when I finished it, as
 
 For more on the frontend of this project check out that repo [here](https://github.com/dartmouth-cs52-20X/platform-client-jeremy-washam/blob/master/README.md)
 
+Also the tags are a bit confusing - on this repo v1 corresponds to lab 5 and v2 corresponds to SA8. On the frontend repo, v1 is lab 4, v2 is lab 5, and v3 is SA8. 
+
 ## Lab 5 Overview
 
 For this lab, I built an Express/Mongo CRUD api server for my movie review website. Like the original CS52 api, the server allows you to create a new post, delete a post by ID, update a post by ID, fetch all posts, and fetch individual posts. I also added a new field to each post - rating (from 0 to 5) - and a new function to fetch all posts sorted by rating. The posts and their data are stored in a Mongo database, hosted at Heroku.
