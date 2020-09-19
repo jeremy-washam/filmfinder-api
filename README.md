@@ -1,7 +1,7 @@
 # Platform API
 
-* Here's my original deployed frontend for lab 5, linked to my own API server hosted at Heroku: [Lab 5](http://jeremywasham-filmfinder-v2.surge.sh/)
-* And here's the final version of my project after finishing SA8, with authentication added: [Film Finder](http://jeremywasham-filmfinder-final.surge.sh/)
+Server is deployed at Heroku here: [Film Finder Server](https://lab5-platform-api-jeremywasham.herokuapp.com/)
+And the final version of the client is here: [Film Finder Client](http://jeremywasham-filmfinder-final.surge.sh/)
 
 Below you can find my original description for lab 5 from when I finished it, as well as a description of the updates I made in SA8. 
 
