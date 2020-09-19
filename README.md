@@ -1,6 +1,7 @@
 # Platform API
 
 Server is deployed at Heroku here: [Film Finder Server](https://lab5-platform-api-jeremywasham.herokuapp.com/)
+
 And the final version of the client is here: [Film Finder Client](http://jeremywasham-filmfinder-final.surge.sh/)
 
 Below you can find my original description for lab 5 from when I finished it, as well as a description of the updates I made in SA8. 
